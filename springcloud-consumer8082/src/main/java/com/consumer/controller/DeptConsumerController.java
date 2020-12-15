@@ -19,8 +19,8 @@ public class DeptConsumerController {
     /**
      * 提供者 URL 的前缀
      */
-    private static final String REST_URL_PREFIX = "http://localhost:8081";
-
+    // private static final String REST_URL_PREFIX = "http://localhost:8081";
+    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER8081";
     /**
      * 需要去提供者那里获取服务
      * @param id

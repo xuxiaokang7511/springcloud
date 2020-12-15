@@ -9,12 +9,19 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud-consumer8082</artifactId>
+    <artifactId>springcloud-consumerfeign</artifactId>
+
     <dependencies>
         <!--Ribbon-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-ribbon</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
+        <!--Feign的依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
             <version>1.4.6.RELEASE</version>
         </dependency>
         <!--Eureka: Ribbon需要从Eureka服务中心获取要拿什么-->
@@ -47,5 +54,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
